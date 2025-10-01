@@ -1,0 +1,18 @@
+{
+	"name": "simple-msp",
+	"version": "0.0.1",
+	"author": {
+		"name": "xiaym",
+		"email": "xiaym123@qq.com"
+	},
+	"license": "MIT",
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"cf-typegen": "wrangler types"
+	},
+	"devDependencies": {
+		"typescript": "^5.5.2",
+		"wrangler": "^4.25.0"
+	}
+}
